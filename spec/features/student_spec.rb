@@ -31,6 +31,7 @@ describe 'form page' do
 
     click_on "Submit Student"
 
+
     expect(page).to have_content("Margaery")
   end
 end
